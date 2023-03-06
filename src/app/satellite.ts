@@ -13,7 +13,7 @@ export class Satellite {
 		this.orbitType = orbitType;
 		this.operational = operational;
    }
-	// Ref for Angular Part 3: In OL CSS for Warning Class, if the type is Space Debris, assign it to the warning class. Can be found in Orbit List Css File
+	// Ref for Angular Part 3: In OL CSS for Warning Class, if the type is Space Debris, assign it to the type class. Can be found in Orbit List Css File
 
 	isSpaceDebris(): boolean {
 		return this.type === "Space Debris";
